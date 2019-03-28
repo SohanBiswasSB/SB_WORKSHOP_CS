@@ -19,7 +19,7 @@ public class fsum
 		static int fsum(int x, int z)
 		{
 			int sum=0;
-			for(int i=0;i<=z;i++)
+			for(int i=0;i<z;i++)
 			{
 				sum+=x;
 				

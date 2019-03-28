@@ -7,6 +7,11 @@ public class nsum
 			Scanner in = new Scanner(System.in);
 			System.out.println("ENTER HOW MANY TIMES YOU WANT TO RUN: ");
 			int n=in.nextInt();
+			if(n==0)
+			{
+				System.out.println("IT CANNOT BE 0, ENTER MORE THAN 0... ");
+				System.exit(0);
+			}
 			int sum=0;
 			for(int i=0;i<n;i++)
 			{

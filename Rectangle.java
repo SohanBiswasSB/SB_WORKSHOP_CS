@@ -2,6 +2,10 @@ import java.io.IOException;
 import java.util.*;
 class Rectangle
 {
+	static void printarea(double []X, double []Y)
+	{
+		System.out.println("THE AREA OF THE TRIANGLE WITH COORDINATES IS: "+ Math.abs(X[0]*(Y[1]-Y[2]) + X[1]*(Y[2]-Y[0]) + X[2]*(Y[0]-Y[1])));
+	}
 	public static void main(String args[])throws IOException
 	{
 		
@@ -20,10 +24,5 @@ class Rectangle
 			}
 			printarea(xcord,ycord);
 		}
-	}
-
-	static void printarea(double []X, double []Y)
-	{
-		System.out.println("THE AREA OF THE TRIANGLE WITH COORDINATES IS: "+ Math.abs(X[0]*(Y[1]-Y[2]) + X[1]*(Y[2]-Y[0]) + X[2]*(Y[0]-Y[1])));
 	}
 }

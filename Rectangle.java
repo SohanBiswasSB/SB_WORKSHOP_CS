@@ -24,5 +24,6 @@ class Rectangle
 			}
 			printarea(xcord,ycord);
 		}
+		in.close();
 	}
 }

@@ -38,13 +38,13 @@ public class EgypticianFraction
 			int totalsum=0;
 			for(int j=0;j<nf;j++)
 			{
-				System.out.println("ENTER THE THE DENOMNATOR VALUES: ");
+				System.out.println("ENTER THE THE DENOMNATOR VALUES FOR FRACTION NUMBER: "+nf);
 				int den=in.nextInt();
-				System.out.println("THE SUM FOR "+1+"/"+den+" IS :");
+				System.out.println(1+"/"+den);
 				findlcm(den);
 				totalsum+=upper(den);
 			}
-			System.out.println("THE SUM IS: "+totalsum+"/"+lcm);
+			System.out.println("THE SUM FOR ALL THE FRACTION(S): "+totalsum+"/"+lcm);
 		}
 		in.close();
 	}
